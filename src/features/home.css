@@ -1,0 +1,35 @@
+.grid-btn {
+    background-color: white;
+    color: white;
+}
+
+.grid-item:hover .grid-btn {
+   background-color: black;
+   color: white;
+   animation-name: ali;
+   animation-duration:0.8s;
+}
+
+@keyframes ali {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.note-animate {
+    animation-name: ali2;
+    animation-duration: 0.5s;
+}
+
+@keyframes ali2 {
+    from {
+    opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
