@@ -26,7 +26,7 @@ const Nav = () => {
   </div>
 </nav> */}
 
-<nav className='bg-white'>
+<nav className='bg-white fixed w-full z-10'>
   <div className='mx-auto p-5 flex justify-between'>
   <Link to="/" className="text-2xl font-bold">Comfashion</Link>
    <div className='flex'>
